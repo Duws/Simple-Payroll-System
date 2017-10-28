@@ -1,0 +1,11 @@
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\bin\Debug\api.exe.config
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\obj\Debug\api.vbprojResolveAssemblyReference.cache
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\obj\Debug\api.Resources.resources
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\obj\Debug\api.vbproj.GenerateResource.Cache
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\obj\Debug\api.xml
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\bin\Debug\api.exe
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\bin\Debug\api.pdb
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\bin\Debug\api.xml
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\bin\Debug\MySql.Data.DLL
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\obj\Debug\api.exe
+C:\Users\RSE\Documents\Drew\GitHub\Simple-Payroll-System\api\api\obj\Debug\api.pdb
