@@ -1,26 +1,24 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Public Class DbConnection
-    Public conn As New MySqlConnection
     Public cmd As New MySqlCommand
     Public dr As MySqlDataReader
     Public adaptr As New MySqlDataAdapter
     Public ds As New DataSet
     Public con As New MySqlConnection
 
-    Public Sub connect()
-        Dim DatabaseName As String = "payroll"
-        Dim server As String = "127.0.0.1"
-        Dim userName As String = "root"
-        Dim password As String = ""
-        If Not conn Is Nothing Then conn.Close()
-        conn.ConnectionString = String.Format("server={0}; user id={1}; password={2}; database={3}; pooling=false", server, userName, password, DatabaseName)
+    Public Sub createConnection()
+        cmd.Parameters.Clear()
         Try
-            conn.Open()
+            con = New MySqlConnection("host=127.0.0.1; database=payroll; uid=root")
+
+            con.Open()
+            cmd.Connection = Me.con
+            cmd.CommandType = CommandType.Text
         Catch ex As Exception
-            MsgBox(ex.Message)
+            MsgBox(ex.ToString)
         End Try
-        conn.Close()
+
     End Sub
 
 End Class

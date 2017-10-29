@@ -32,7 +32,7 @@
         form.Controls.Add(txt)
     End Sub
 
-    Public Function btnProperties(form As Form, btn As Button, text As String, name As String, x As Integer, y As Integer)
+    Public Sub btnLoginProperties(form As Form, btn As Button, text As String, name As String, x As Integer, y As Integer)
         With btn
             .Name = name
             .Text = text
@@ -50,8 +50,6 @@
             .Cursor = Cursors.Hand
         End With
         form.Controls.Add(btn)
-
-        Return name
-    End Function
+    End Sub
 
 End Class

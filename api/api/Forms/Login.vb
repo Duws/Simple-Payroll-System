@@ -4,10 +4,9 @@
     Dim DB As New DbConnection
 
     Public Sub LoadForm(sender As Object, e As EventArgs) Handles MyBase.Load
-        DB.connect()
-        Call LoginSetup.setUpForm(Me)
-        Call LoginSetup.createDynamics(Me)
-
+        DB.createConnection()
+        Call setUpForm(Me)
+        Call createDynamics(Me)
     End Sub
 
 End Class
